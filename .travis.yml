@@ -12,8 +12,8 @@ stages:
     if: branch = master
 
 script:
-  - shards build --production --cross-compile --target "x86_64-unknown-linux-gnu"
-  - tar czf genpass-x86_64-unknown-linux-gnu.tar bin/passgen
+  - crystal build src/passgen.cr --release --static --cross-compile --target "x86_64-unknown-linux-gnu"
+  - tar czf genpass-x86_64-unknown-linux-gnu.tar passgen
 
 before_deploy:
   # Set up git user name and tag this commit
