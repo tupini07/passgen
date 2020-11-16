@@ -1,5 +1,7 @@
 # passgen
 
+[![Build Status](https://travis-ci.org/tupini07/passgen.svg?branch=master)](https://travis-ci.org/tupini07/passgen)
+
 This is a small utility I made mainly as an excuse to play around with the [Crystal](https://crystal-lang.org/)
 language.
 

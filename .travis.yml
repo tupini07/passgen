@@ -1,4 +1,8 @@
+dist: xenial
 language: crystal
+
+crystal:
+  - latest
 
 stages:
   - script
