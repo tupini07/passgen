@@ -25,7 +25,28 @@ cp bin/passgen ~/.local/bin/
 
 ## Usage
 
-TODO: Write usage instructions here
+The executable can either be used interactively or non-interactively. For the interactive mode no
+flags should be passed, and for the non-interactive mode options should be passed as flags.
+
+### Interactive mode
+
+In interactive mode, the application will explicitly ask for the information it needs to generate
+the password.
+
+```shell
+$ passgen
+Length for password? [8] 10
+Numbers (0..1)? [n/Y] n
+Lowercase (a..z)? [n/Y] 
+Uppercase (A..Z)? [n/Y] n
+Symbols (!@#$%^&*()_+~)? [n/Y] 
+
+        ip^tkipxyz
+```
+
+### Non-interactive mode
+
+TODO: write this
 
 ## Development
 
