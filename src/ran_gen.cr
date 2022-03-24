@@ -17,7 +17,7 @@ module RandomGenerator
       exit 1
     end
 
-    res = (1..len).map { distr.sample }
+  res = (1..len).map { distr.sample(Random::Secure) }
 
     res.join
   end
