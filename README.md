@@ -57,7 +57,7 @@ TODO: Write development instructions here
 Contributions are very welcome! To keep everything organized please follow the
 following process.
 
-1. Fork it (<https://github.com/your-github-user/passgen/fork>)
+1. Fork it (<https://github.com/tupini07/passgen/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
